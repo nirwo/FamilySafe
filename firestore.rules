@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if user is a member of a group
+    function isMemberOfGroup(groupData) {
+      let userEmail = request.auth.token.email;
+      return groupData.members.hasAny([{'email': userEmail}]) || 
+             userEmail == groupData.createdBy;
+    }
+
+    // Allow authenticated users to read and write their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Allow authenticated users to read and write groups they are members of
+    match /groups/{groupId} {
+      allow create: if request.auth != null;
+      allow read, update, delete: if request.auth != null && (
+        // For existing groups, check if user is a member or creator
+        resource.data.createdBy == request.auth.token.email ||
+        resource.data.members.hasAny([{'email': request.auth.token.email}])
+      );
+
+      // Allow access to subcollections for group members
+      match /{document=**} {
+        allow read, write: if request.auth != null && isMemberOfGroup(get(/databases/$(database)/documents/groups/$(groupId)).data);
+      }
+    }
+
+    // Allow authenticated users to read and write alerts
+    match /alerts/{alertId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.resource.data.createdBy == request.auth.token.email;
+    }
+
+    // Allow authenticated users to read and write notifications
+    match /notifications/{notificationId} {
+      allow read: if request.auth != null && request.auth.token.email == resource.data.userEmail;
+      allow create: if request.auth != null;
+      allow update, delete: if request.auth != null && request.auth.token.email == resource.data.createdBy;
+    }
+
+    // Allow read/write access to all users under any conditions
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_map.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/menu_main_menu.xml.flat",
+        "source": "nir.wolff.app-main-48:/menu/main_menu.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/anim_button_press.xml.flat",
+        "source": "nir.wolff.app-main-48:/anim/button_press.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_notification.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/animator_button_state_list_anim.xml.flat",
+        "source": "nir.wolff.app-main-48:/animator/button_state_list_anim.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_sign_in.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_map.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_map.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "nir.wolff.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_create_group.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_create_group.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_logout.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/anim_slide_in_right.xml.flat",
+        "source": "nir.wolff.app-main-48:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/raw_alert_sound.mp3.flat",
+        "source": "nir.wolff.app-main-48:/raw/alert_sound.mp3"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_group_details.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_group_details.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/anim_button_release.xml.flat",
+        "source": "nir.wolff.app-main-48:/anim/button_release.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/menu_menu_group_details.xml.flat",
+        "source": "nir.wolff.app-main-48:/menu/menu_group_details.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_person.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_item_chat_message.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_person_add.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_person_add.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_launcher.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_profile.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/anim_slide_out_left.xml.flat",
+        "source": "nir.wolff.app-main-48:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_refresh.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "nir.wolff.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_add_person.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_add_person.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_test.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_test.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_dialog_add_member.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/dialog_add_member.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/xml_network_security_config.xml.flat",
+        "source": "nir.wolff.app-main-48:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_fragment_group_members.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/fragment_group_members.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_item_group.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/item_group.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_delete.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_item_group_member.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/item_group_member.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_warning.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_item_alert.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/item_alert.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/anim_slide_out_right.xml.flat",
+        "source": "nir.wolff.app-main-48:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_check.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_add_group.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_add_group.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_fragment_group_chat.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/fragment_group_chat.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/anim_slide_in_left.xml.flat",
+        "source": "nir.wolff.app-main-48:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "nir.wolff.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_remove_person.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_remove_person.xml"
+    },
+    {
+        "merged": "nir.wolff.app-merged_res-46:/drawable_ic_add.xml.flat",
+        "source": "nir.wolff.app-main-48:/drawable/ic_add.xml"
+    }
+]

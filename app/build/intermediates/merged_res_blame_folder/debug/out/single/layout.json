@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_profile.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_sign_in.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_map.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_map.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/fragment_group_members.xml",
+        "source": "nir.wolff.app-main-48:/layout/fragment_group_members.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/item_group_member.xml",
+        "source": "nir.wolff.app-main-48:/layout/item_group_member.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/dialog_add_member.xml",
+        "source": "nir.wolff.app-main-48:/layout/dialog_add_member.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/item_group.xml",
+        "source": "nir.wolff.app-main-48:/layout/item_group.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/item_alert.xml",
+        "source": "nir.wolff.app-main-48:/layout/item_alert.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/item_chat_message.xml",
+        "source": "nir.wolff.app-main-48:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/fragment_group_chat.xml",
+        "source": "nir.wolff.app-main-48:/layout/fragment_group_chat.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_group_details.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_group_details.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_create_group.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_create_group.xml"
+    },
+    {
+        "merged": "nir.wolff.app-mergeDebugResources-45:/layout/activity_test.xml",
+        "source": "nir.wolff.app-main-48:/layout/activity_test.xml"
+    }
+]
