@@ -1,24 +1,28 @@
-# Safety Alert App
+# FamilySafe
 
-A safety alert application that helps users stay connected with their family and friends during emergencies. The app integrates with the Red Alert API to provide real-time alerts and allows users to mark themselves as safe or unsafe, notifying their group members.
+A safety alert application for families and groups.
+
+## Setup
+
+1. Clone the repository
+2. Copy `app/google-services.json.template` to `app/google-services.json`
+3. Replace the placeholder values in `google-services.json` with your actual Firebase configuration
+4. Build and run the application
+
+## Security Note
+
+The `google-services.json` file contains sensitive API keys and configuration. It is excluded from version control for security reasons. Make sure to:
+- Never commit the actual `google-services.json` file
+- Keep your API keys and credentials secure
+- Use the template file as a reference for required configuration
 
 ## Features
 
-- Google Sign-In Authentication
-- Create and manage groups (family/friends)
-- Real-time alerts based on location
-- Mark safety status (safe/unsafe)
-- Push notifications for group members
-- Modern and intuitive UI
-
-## Setup Instructions
-
-1. Clone the repository
-2. Create a Firebase project and add your `google-services.json` file to the app directory
-3. Enable Google Sign-In in Firebase Console and add your SHA-1 fingerprint
-4. Update the web client ID in `SignInActivity.kt`
-5. Enable Firebase Cloud Messaging in Firebase Console
-6. Build and run the project
+- Real-time safety alerts
+- Group management
+- Location sharing with group members
+- Chat functionality
+- Interactive map with alert zones
 
 ## Requirements
 
